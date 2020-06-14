@@ -27,20 +27,19 @@
 
     $ sudo gedit /etc/modprobe.d/blacklist-nouveau.conf
 
-##### • insert follows in blacklist-nouveau.conf and close after saving
+##### • Insert Belows in blacklist-nouveau.conf and close after saving
     
     blacklist nouveau
     options nouveau modeset=0
 
-*禁 Ubuntu 自带开源驱动nouveau，写入后保存重启*
+*For Apply Reboot
     
     $ sudo reboot 
 
-##### • 重启后在终端执行行命令:(Terminal) 
+##### • After rebooting, Insert this in the terminal
+##### • If you can see blank, It's perfect
     
     $ lsmod | grep nouveau
-
-##### 查看nouveau模块是否被加载，若`无输出`，则执行下一步
 ***
 ## 3. 下载并安装 Cuda 和 Nvidia 驱动
 ##### Download Installer for Linux Ubuntu 18.04 x86_64
