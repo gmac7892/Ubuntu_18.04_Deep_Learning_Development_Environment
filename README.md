@@ -114,19 +114,9 @@ __*After installation is complete, the CUDA and the NVidia drive will be display
 
     $ nvcc -V
     
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190609205106404.png)
+![result](https://img-blog.csdnimg.cn/20190609205106404.png)
 
-##### 编译并测试设备 deviceQuery: 
-    
-    $ cd /usr/local/cuda-9.0/samples/1_Utilities/deviceQuery
-    $ sudo make
-    $ ./deviceQuery
 
-##### 编译并测试带宽 bandwidthTest:
-    
-    $ cd ../bandwidthTest
-    $ sudo make
-    $ ./bandwidthTest
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190406155104326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODEwNzI3MQ==,size_16,color_FFFFFF,t_70)
 ##### 如果两个测试的结果都是 `Result = PASS CUDA` 安装成功 
