@@ -57,14 +57,13 @@
 
 
 #### Install Nivida Driver
-#### • move to directory of driver downloaded and typing beldows. 
+#### • move to directory of driver downloaded and type in beldows. 
 frist, give the permission and then execute driver installer
 
     $ sudo chmod a+x NVIDIA-Linux-x86_64-440.44.run
     $ sudo ./NVIDIA-Linux-x86_64-440.44.run -no-opengl-files -no-x-check -no-nouveau-check
     
 ### 安装 CUDA 和 NVIDIA 驱动
-*__注意：确定下载的 cuda 版本后执行指令__*
 	
     $ sudo chmod 777 cuda_10.0.130_410.48_linux.run
     $ sudo sh cuda_10.0.130_410.48_linux.run --no-opengl-libs
