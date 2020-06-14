@@ -129,7 +129,7 @@ __*Install the latest Cudden for the Cuda version*__
     $ sudo cp lib64/lib* /usr/local/cuda/lib64/
     $ sudo cp include/cudnn.h /usr/local/cuda/include/
     $ sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
-##### Then update the network connection:
+##### • Then update the network connection:
 
     $ cd /usr/local/cuda/lib64/ 
     $ sudo chmod +r libcudnn.so.7.6.0
@@ -137,7 +137,7 @@ __*Install the latest Cudden for the Cuda version*__
     $ sudo ln -sf libcudnn.so.7 libcudnn.so 
     $ sudo ldconfig
     
-##### Check cudnn 
+##### • Check cudnn 
     $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ![image](https://user-images.githubusercontent.com/57169220/84590290-4414b780-ae70-11ea-9e83-de374743acda.png)
 
