@@ -1,6 +1,6 @@
 # Ubuntu 18.04 Deep Learning Development Environment
  
-* tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting
+## tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting ##
 
 
 ***
