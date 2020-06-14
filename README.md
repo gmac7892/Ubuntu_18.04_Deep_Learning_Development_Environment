@@ -40,7 +40,14 @@
     
     $ lsmod | grep nouveau
 ***
-## 3. 下载并安装 Cuda 和 Nvidia 驱动
+## 3. Install 'gcc' and 'make'
+##### • for install Nvidia Driver, It's essentical
+
+    $ sudo apt install gcc
+    $ sudo apt install make
+
+***
+## 4. Download Cuda and, Nvidia Driver
 ##### Download Installer for Linux Ubuntu 18.04 x86_64
 
 ##### `GTX 1080 / RTX 2080 - Download CUDA: CUDA Toolkit 10.0 (Sept 2018)` [[CUDA Link]](https://developer.nvidia.com/cuda-toolkit-archive)  
