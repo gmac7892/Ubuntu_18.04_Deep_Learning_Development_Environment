@@ -1,24 +1,18 @@
-# Ubuntu_18.04_Deep_Learning_Development_Environment
- # Ubuntu 18.04 Deep Learning Environment Setup
+# Ubuntu 18.04 Deep Learning Development Environment
  
 *tensorflow-gpu & Nvidia GPU & Cuda & Cudnn 环境配置*
 
-<div align="left">
-  <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/cuda_gpu_version.png" width="600">
 
 ***
-## Ubuntu 18.04 配置版本
-* #### Ubuntu Kernel Version 5.0.0-29
-* #### GeForce GTX 1080 Ti / RTX 2080 Ti
-* #### NVIDIA 430.14
+## Ubuntu 18.04
+* #### Ubuntu Kernel Version 5.3.0-53
+* #### GeForce RTX 2080 Ti
+* #### NVIDIA 440.44
 * #### cuda 10.0
 * #### cuDNN v7.6.0
-* #### tensorflow-gpu 1.13.1
-* #### numpy 1.14.5
-* #### python 3.6
 ***
 
-## __0. 更新软件源 & 确认配置版本 - Update and Upgrade__
+## 0. Update and Upgrade
     
     $ sudo apt-get update
     $ sudo apt-get upgrade
