@@ -143,7 +143,7 @@ __*Install the latest Cudden for the Cuda version*__
 ***
 
 ## 7. Tensorflow-GPU
-CUDA 9.0 - tensorflow-gpu==1.10.0
-CUDA 10.0 - tensorflow-gpu==1.13.1
+##### CUDA 9.0 - tensorflow-gpu==1.10.0
+##### CUDA 10.0 - tensorflow-gpu==1.13.1
 
     $ pip install tensorflow-gpu==1.13.1
