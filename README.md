@@ -74,6 +74,12 @@ frist, give the permission and then execute driver installer
     Choose No.
     After above: $sudo reboot
     
+## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
+
+    $ nvidia-smi
+    
+<img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png" width="60%" height="60%">
+    
 ##### Install CUDA
 	
     $ sudo chmod 777 cuda_10.0.130_410.48_linux.run
