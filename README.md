@@ -81,18 +81,20 @@ frist, give the permission and then execute driver installer
 <img src="https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/gpu_setting.png" width="60%" height="60%">
     
 ##### Install CUDA
-	
+##### • move to directory of cuda downloaded and type in beldows. 
+frist, give the permission and then execute cuda installer
+
     $ sudo chmod 777 cuda_10.0.130_410.48_linux.run
     $ sudo sh cuda_10.0.130_410.48_linux.run --no-opengl-libs
     ...
     
    __*进入 CUDA 安装中同意安装 Nvidia 驱动*__
 >     [accept] #Consent to install
->     [y]      #安装Driver，将自动安装CUDA版本相匹配的Nvidia驱动
->     [y]      #安装CUDA Toolkit install
->     <Enter>  #安装到默认目录
->     [y]      #创建安装目录的软链接
->     [n]      #不复制Samples，因为在安装目录下有/samples
+>     [n]      #Do not install Driver
+>     [y]      #Install CUDA Toolkit
+>     <Enter>  #Directory set to Default
+>     [y]      #Create a soft link to the installation directory
+>     [n]      #no sample
 
 __*安装完成后会显示 CUDA 和 Nvidia 驱动成功安装*__
 ##### A. vim 打开.bashrc 在末行加⼊以下命令
