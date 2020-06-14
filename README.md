@@ -1,6 +1,6 @@
 # Ubuntu 18.04 Deep Learning Development Environment
  
-## tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting ##
+tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting
 
 
 ***
@@ -96,7 +96,7 @@ frist, give the permission and then execute cuda installer
 >     [y]      #Create a soft link to the installation directory
 >     [n]      #no sample
 
-__*安装完成后会显示 CUDA 和 Nvidia 驱动成功安装*__
+__*After installation is complete, the CUDA and the NVidia drive will be displayed for successful installation*__
 ##### A. vim 打开.bashrc 在末行加⼊以下命令
 
     export PATH="/usr/local/cuda/bin:$PATH"
