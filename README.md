@@ -140,4 +140,10 @@ __*Install the latest Cudden for the Cuda version*__
 ##### • Check cudnn 
     $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ![image](https://user-images.githubusercontent.com/57169220/84590290-4414b780-ae70-11ea-9e83-de374743acda.png)
+***
 
+## 7. Tensorflow-GPU
+CUDA 9.0 - tensorflow-gpu==1.10.0
+CUDA 10.0 - tensorflow-gpu==1.13.1
+
+    $ pip install tensorflow-gpu==1.13.1
