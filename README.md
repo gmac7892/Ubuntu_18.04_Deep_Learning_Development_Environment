@@ -36,8 +36,7 @@
     
     $ sudo reboot 
 
-##### • After rebooting, Insert this in the terminal
-If you can see blank, It's perfect
+##### • After rebooting, Insert this in the terminal. If you can see blank, It's perfect
     
     $ lsmod | grep nouveau
 ***
