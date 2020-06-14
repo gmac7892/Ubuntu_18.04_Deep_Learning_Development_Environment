@@ -17,17 +17,17 @@
     $ sudo apt-get update
     $ sudo apt-get upgrade
     
-## 1. 卸载所有原驱动
+## 1. Remove All Nvidia
 
     $ sudo apt-get purge nvidia*
 
-## 2. 禁用nouveau
+## 2. nouveau Off
 
-##### • 新建-blacklist-nouveau.conf 输⼊指令:
+##### • Make 'blacklist-nouveau.conf' and  revise(If there is no gedit, $ sudo apt-get install gedit)
 
-    $ sudo vi /etc/modprobe.d/blacklist-nouveau.conf
+    $ sudo gedit /etc/modprobe.d/blacklist-nouveau.conf
 
-##### • 往 blacklist-nouveau.conf 文件中写⼊：
+##### • insert follows in blacklist-nouveau.conf and close after saving
     
     blacklist nouveau
     options nouveau modeset=0
