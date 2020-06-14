@@ -56,21 +56,32 @@
   <img src="https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup/blob/master/img/ubuntu_18.04_cuda.png" width="800">
 
 
-#### Install Nivida Driver
-#### • move to directory of driver downloaded and type in beldows. 
+##### Install Nivida Driver
+##### • move to directory of driver downloaded and type in beldows. 
 frist, give the permission and then execute driver installer
 
     $ sudo chmod a+x NVIDIA-Linux-x86_64-440.44.run
     $ sudo ./NVIDIA-Linux-x86_64-440.44.run -no-opengl-files -no-x-check -no-nouveau-check
     
-### 安装 CUDA 和 NVIDIA 驱动
+#### [Tips] (登录界面循环问题 - Login loop issue)
+* -no-opengl-files (no install OpenGL file)
+* -no-x-check (no check X server)
+* -no-nouveau-check (no check nouveau module)
+  
+#### During Installing
+    
+    “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
+    Choose No.
+    After above: $sudo reboot
+    
+##### Install CUDA
 	
     $ sudo chmod 777 cuda_10.0.130_410.48_linux.run
     $ sudo sh cuda_10.0.130_410.48_linux.run --no-opengl-libs
     ...
     
    __*进入 CUDA 安装中同意安装 Nvidia 驱动*__
->     [accept] #同意安装
+>     [accept] #Consent to install
 >     [y]      #安装Driver，将自动安装CUDA版本相匹配的Nvidia驱动
 >     [y]      #安装CUDA Toolkit install
 >     <Enter>  #安装到默认目录
