@@ -1,6 +1,6 @@
 # Ubuntu 18.04 Deep Learning Development Environment
  
-*tensorflow-gpu & Nvidia GPU & Cuda & Cudnn 环境配置*
+*tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting
 
 
 ***
@@ -74,7 +74,7 @@ frist, give the permission and then execute driver installer
     Choose No.
     After above: $sudo reboot
     
-## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
+## 5. Nvidia驱动安装完成 - Check Driver was successfully installed
 
     $ nvidia-smi
     
