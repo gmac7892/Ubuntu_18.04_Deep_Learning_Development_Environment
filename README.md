@@ -139,5 +139,5 @@ __*Install the latest Cudden for the Cuda version*__
     
 ##### Check cudnn 
     $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
-<div align="left">
-  <img src="https://github.com/gmac7892/Ubuntu_18.04_Deep_Learning_Development_Environment/img/cudnn check.png" width="800">
+![image](https://user-images.githubusercontent.com/57169220/84590290-4414b780-ae70-11ea-9e83-de374743acda.png)
+
