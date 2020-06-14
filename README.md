@@ -97,20 +97,20 @@ frist, give the permission and then execute cuda installer
 >     [n]      #no sample
 
 __*After installation is complete, the CUDA and the NVidia drive will be displayed for successful installation*__
-##### A. vim 打开.bashrc 在末行加⼊以下命令
+##### A. type belows in terminal
 
-    export PATH="/usr/local/cuda/bin:$PATH"
-    export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+    $ export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
+    $ export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
     
-##### 执行指令更新 .bashrc 文件 - Reload .bashrc with 
+##### B. Reload .bashrc with 
     
     $ source .bashrc
 
-##### B. Nvidia 驱动安装完成
+##### C. link
 
-    $ nvidia-smi
+    $ sudo ldconfig /usr/local/cuda/lib64
 
-##### C. 安装及路径测试，CUDA安装完成
+##### D. Installation and path testing, CUDA installation complete
 
     $ nvcc -V
     
