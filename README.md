@@ -16,7 +16,7 @@ tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting
     
     $ sudo apt-get update
     $ sudo apt-get upgrade
-    
+***    
 ## 1. Remove All Nvidia
 
     $ sudo apt-get purge nvidia*
