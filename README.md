@@ -22,7 +22,7 @@ tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting
     $ sudo apt-get purge nvidia*
 ***
 ## 2. nouveau Off
-
+***
 ##### • Make 'blacklist-nouveau.conf' and  revise(If there is no gedit, $ sudo apt-get install gedit)
 
     $ sudo gedit /etc/modprobe.d/blacklist-nouveau.conf
@@ -73,7 +73,7 @@ frist, give the permission and then execute driver installer
     “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
     Choose No.
     After above: $sudo reboot
-    
+***    
 ## 5. Nvidia驱动安装完成 - Check Driver was successfully installed
 
     $ nvidia-smi
