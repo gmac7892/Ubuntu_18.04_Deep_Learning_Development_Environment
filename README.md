@@ -20,7 +20,7 @@ tensorflow-gpu & Nvidia GPU & Cuda & Cudnn Setting
 ## 1. Remove All Nvidia
 
     $ sudo apt-get purge nvidia*
-
+***
 ## 2. nouveau Off
 
 ##### • Make 'blacklist-nouveau.conf' and  revise(If there is no gedit, $ sudo apt-get install gedit)
